@@ -18,16 +18,12 @@
 		Hello world!  
 	</h1>
 	
->>>>>>> BugFix_1
 	<P>  The time on the server is ${serverTime}. </P>
 	
 	<h2>GIT Test</h2>
 	<ul>
 		<li>choa</li>
 		<li>iu</li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 		<li>conflict_1</li>
 		<li>master</li>
 		<li>BugFix_1</li>
