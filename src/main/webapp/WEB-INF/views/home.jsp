@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 	<h1>Master add</h1>
 	<h1>Master add2</h1>
+	<h1>Master add3</h1>
 	<h1>
 		Hello world!
 	</h1>
@@ -25,9 +26,10 @@
 		<li>choa</li>
 		<li>iu</li>
 <<<<<<< HEAD
-	</ul>
-
+<<<<<<< HEAD
 =======
+		<li>conflict_1</li>
+		<li>master</li>
 		<li>BugFix_1</li>
 		<li>BugFix_2</li>
 	</ul>
