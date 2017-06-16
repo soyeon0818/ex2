@@ -5,7 +5,6 @@
 	<title>Home</title>
 </head>
 <body>
-<<<<<<< HEAD
 	<h1>Master add</h1>
 	<h1>Master add2</h1>
 	<h1>Master add3</h1>
@@ -13,7 +12,6 @@
 		Hello world!
 	</h1>
 
-=======
 	<h1>
 		Hello world!  
 	</h1>
@@ -29,6 +27,9 @@
 		<li>BugFix_1</li>
 		<li>BugFix_2</li>
 	</ul>
->>>>>>> BugFix_1
+	
+	<a href="notice/noticeList">noticeList</a>
+	
+	<p>GITHUB</p>
 </body>
 </html>

@@ -2,8 +2,10 @@ package com.soyeon.notice;
 
 import java.util.List;
 
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import com.soyeon.util.PageMaker;
@@ -15,6 +17,10 @@ public class NoticeService {
 	
 	@Inject
 	private NoticeDAO noticeDAO;
+	
+	public void test() {
+		System.out.println(noticeDAO);
+	}
 	
 	/*public NoticeService(NoticeDAO noticeDAO) {
 		this.noticeDAO = noticeDAO;

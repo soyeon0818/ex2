@@ -9,21 +9,21 @@ import java.util.List;
 import javax.inject.Inject;
 import javax.sql.DataSource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.soyeon.util.DBConnect;
 import com.soyeon.util.RowMaker;
 
 @Repository
-// @Repository는 다음과 같은 의미. NoticeDAO noticeDAO = new NoticeDAO();
 public class NoticeDAO {
 	
-	@Inject
+	@Autowired
 	private DataSource dataSource;
 
-	/*public void setDataSource(DataSource dataSource) {
+	public void setDataSource(DataSource dataSource) {
 		this.dataSource = dataSource;
-	}*/
+	}
 
 	public NoticeDTO noticeView(int num) throws Exception {
 		NoticeDTO noticeDTO = new NoticeDTO();
