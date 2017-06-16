@@ -30,6 +30,6 @@
 	
 	<a href="notice/noticeList">noticeList</a>
 	
-	<p>GITHUB</p>
+	<p>HOME_1</p>
 </body>
 </html>
